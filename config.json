@@ -1,0 +1,20 @@
+{
+  "common": {
+    "title": "sample site",
+    "url": "http://sample.com/"
+  },
+  "pages": [
+    {
+      "title": "Page1",
+      "description": "Description1"
+    },
+    {
+      "title": "Page2",
+      "description": "Description2"
+    },
+    {
+      "title": "Page3",
+      "description": "Description3"
+    }
+  ]
+}

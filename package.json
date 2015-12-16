@@ -1,0 +1,19 @@
+{
+  "name": "create-share-html",
+  "version": "1.0.0",
+  "description": "個別share用のhtmlを生成",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomatoo--/create-share-html.git"
+  },
+  "main": "create_share_html.js",
+  "scripts": {
+    "build": "node create_share_html.js"
+  },
+  "author": "T.tsutsumi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "mkdirp": "^0.5.1"
+  }
+}

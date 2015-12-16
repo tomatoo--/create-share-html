@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>【<%= id %>】<%= title %> | <%= commonTitle %></title>
+
+<!-- OG -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="<%= commonTitle %>">
+<meta property="og:url" content="<%= url %>">
+<meta property="og:image" content="<%= imgPath %>">
+<meta property="og:title" content="【<%= id %>】<%= title %> | <%= commonTitle %>">
+<meta property="og:description" content="<%= description %>">
+
+<script>
+location.href = '../?id=<%= id %>'
+</script>
+
+</head>
+<body>
+</body>
+</html>
